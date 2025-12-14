@@ -2,10 +2,77 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Static Page</title>
+  <title>Artikel Kode Rahasia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #f6f7f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 680px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+    p {
+      color: #444;
+      line-height: 1.6;
+    }
+    .code-box {
+      margin-top: 24px;
+      display: flex;
+      gap: 10px;
+    }
+    input {
+      flex: 1;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      padding: 12px 16px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    footer {
+      margin-top: 24px;
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h1>Halo 👋</h1>
-  <p>Static page Cloudflare Pages berhasil.</p>
+
+  <div class="container">
+    <h1>🔎 Temukan Artikel dengan Kode</h1>
+    <p>
+      Masukkan kode artikel yang Anda lihat di TikTok atau Quora untuk membaca versi lengkapnya.
+    </p>
+
+    <div class="code-box">
+      <input type="text" placeholder="Contoh: A17X9">
+      <button>Cari</button>
+    </div>
+
+    <footer>
+      © 2025 — Semua konten ditulis ulang secara informatif
+    </footer>
+  </div>
+
 </body>
 </html>
